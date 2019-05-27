@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="90" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="111">
+ <tileset firstgid="1" source="Tiles.tsx"/>
+ <layer id="1" name="Floor_ui" width="90" height="16">
+  <data encoding="base64" compression="zlib">
+   eJy9WMlKBDEQLRfmoKCjHhRUvDjQ9t1xTgr6AeJy9uCKenD9f0wwBW/KqlRitz54JHStnVSnu5roG+uUx1ngyT9wMXChw9i33y73cu6sacQQSMkuYpzGmcDlJF8J3A4cBK4l+Q7ISxn9zCr+WTaA+BxjW3CQZHuV+Y4dGy0HXk/tXlim4THwKc2HQoY2TeB+4FbKdzVwkq41SQflkrNwX3tpvpP8ENhPknwGYhyATgt6LeRAad6ArpevZWPlcEX2GuNae0D9a2GzL+YxNu8RylAexzYR74v1W5q2RX+8hpRyuQm8FfoT+gmZC+Zj6Vg2mEPEM/Wzzoyo/1JpYwHXVZNZQJuYy2vgW0E83JNa4LMtc2D8Zp03YL4p9CMuqP93mWU/CtytHEvyGv2Bz6EzR8R9j98bub2/C7yv4IPhJ1djsoasuJZvD7uVut5zU1vP8VnccPx+VuSY06957i0/tbkgSurF20euFaxba5Twvp/fC/JDfjj+SqHFlb6158BCyR55OlwrWM9yjUvOZ8SpE1M7Bw4Dj9JImes169MXSuqltEZ+8x606tn7ztDOgSMxetf/CzXn86hAp/bcOCb7fXppxMjZcL1q9cyj913wV98bNX679Ny5teMeraHpPtTSlb2s7IutemZgb449N9HPnlfqjHvy4dlzD6vpyDXQYljAvgz7PA1RvkTTvSwCz2PtvI768/S9n3OGDPvzNcjnoIMPfKdo9g3YtwU6WgwPVr9mAf8xlAL3Tv6X0HLh+83lUONDvlOkvfyvUKrj5dkFtfsiUbo/Ob2uPkrsu8b4AjMrmW4=
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="90" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzt0jERADAIBEHs4d8QGlIEmGFXwDd/EQAAXJBLNujx8tWvXyd60ShXaR+ArQqrFAIA
+  </data>
+ </layer>
+ <objectgroup id="3" name="Coins_Object">
+  <object id="51" x="512" y="448" width="64" height="64"/>
+  <object id="52" x="896" y="576" width="64" height="64"/>
+  <object id="56" x="1600" y="448" width="64" height="64"/>
+  <object id="60" x="1600" y="704" width="64" height="64"/>
+  <object id="83" x="2688" y="512" width="64" height="64"/>
+  <object id="84" x="4800" y="512" width="64" height="64"/>
+  <object id="92" x="3392" y="512" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="4" name="Enemy_Object">
+  <object id="100" x="2368" y="576" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="101" x="2496" y="640" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="102" x="2560" y="448" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="103" x="3072" y="448" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="104" x="3008" y="576" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="105" x="2816" y="640" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="106" x="3904" y="384" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="107" x="4352" y="640" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="108" x="3968" y="640" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="110" x="128" y="192" width="64" height="64">
+   <properties>
+    <property name="isDynamic" type="bool" value="true"/>
+    <property name="isVertical" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Text_Object">
+  <object id="67" x="704" y="384" width="703" height="64">
+   <properties>
+    <property name="text" value="after this ... you are ready to go !"/>
+   </properties>
+   <text fontfamily="Roboto" pixelsize="48" wrap="1" color="#ffffff">after this ... you are ready to go !</text>
+  </object>
+  <object id="68" x="2636" y="384" width="244" height="64">
+   <properties>
+    <property name="text" value="Is it easy?"/>
+   </properties>
+   <text fontfamily="Roboto" pixelsize="48" wrap="1" color="#ffffff">Is it easy?</text>
+  </object>
+  <object id="95" x="3916" y="448" width="500" height="64">
+   <properties>
+    <property name="text" value="Harder than you think !"/>
+   </properties>
+   <text fontfamily="Roboto" pixelsize="48" wrap="1" color="#ffffff">Harder than you think !</text>
+  </object>
+ </objectgroup>
+</map>

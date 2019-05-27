@@ -1,0 +1,229 @@
+
+pack.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background
+  rotate: false
+  xy: 1, 2993
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+Credits
+  rotate: false
+  xy: 1, 1911
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+Story
+  rotate: false
+  xy: 1, 829
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+RobotoLight48
+  rotate: false
+  xy: 1, 571
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+up
+  rotate: false
+  xy: 1, 269
+  size: 301, 300
+  orig: 301, 300
+  offset: 0, 0
+  index: -1
+upPressed
+  rotate: false
+  xy: 515, 527
+  size: 301, 300
+  orig: 301, 300
+  offset: 0, 0
+  index: -1
+Btn
+  rotate: false
+  xy: 818, 672
+  size: 400, 155
+  orig: 400, 155
+  offset: 0, 0
+  index: -1
+BtnPressed
+  rotate: false
+  xy: 1220, 672
+  size: 400, 155
+  orig: 400, 155
+  offset: 0, 0
+  index: -1
+credit
+  rotate: false
+  xy: 818, 515
+  size: 400, 155
+  orig: 400, 155
+  offset: 0, 0
+  index: -1
+creditPressed
+  rotate: false
+  xy: 1220, 515
+  size: 400, 155
+  orig: 400, 155
+  offset: 0, 0
+  index: -1
+left
+  rotate: false
+  xy: 1622, 527
+  size: 250, 300
+  orig: 250, 300
+  offset: 0, 0
+  index: -1
+RobotoBlack40
+  rotate: false
+  xy: 1, 11
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+leftPressed
+  rotate: false
+  xy: 304, 225
+  size: 250, 300
+  orig: 250, 300
+  offset: 0, 0
+  index: -1
+right
+  rotate: false
+  xy: 556, 225
+  size: 250, 300
+  orig: 250, 300
+  offset: 0, 0
+  index: -1
+rightPressed
+  rotate: false
+  xy: 808, 213
+  size: 250, 300
+  orig: 250, 300
+  offset: 0, 0
+  index: -1
+levelBtn
+  rotate: false
+  xy: 1060, 293
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+levelPressedBtn
+  rotate: false
+  xy: 1282, 293
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 259, 3
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+Home
+  rotate: false
+  xy: 481, 13
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+HomePressed
+  rotate: false
+  xy: 1504, 303
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+Restart
+  rotate: false
+  xy: 1716, 315
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+RestartPressed
+  rotate: false
+  xy: 693, 1
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+Resume
+  rotate: false
+  xy: 905, 1
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+ResumePressed
+  rotate: false
+  xy: 1117, 81
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 1329, 165
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+backPressed
+  rotate: false
+  xy: 1329, 37
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 1874, 701
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+pausePressed
+  rotate: false
+  xy: 1874, 573
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+cube_moving
+  rotate: false
+  xy: 1117, 15
+  size: 65, 64
+  orig: 65, 64
+  offset: 0, 0
+  index: -1
+lava
+  rotate: false
+  xy: 1923, 4008
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+lava_standing
+  rotate: false
+  xy: 1923, 3941
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+cube_standing
+  rotate: false
+  xy: 1184, 15
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

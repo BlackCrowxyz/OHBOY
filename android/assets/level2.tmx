@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="90" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="84">
+ <tileset firstgid="1" source="Tiles.tsx"/>
+ <layer id="1" name="Floor_ui" width="90" height="16">
+  <data encoding="base64" compression="zlib">
+   eJy9VslOwzAQNYt6hAIHIgHiAhKtuFIKR0rJmX4AlF3s6/+LsZKRpiN7PLbTPOmpTTz2PL+MF2MqFMBNM188A18i+9wC74D3zctRIUWzhfWy8Lyn6BJK+a6A18Ap8CZBTwifwC/gd2J/rjtG72liToSrbl3eW3Q97xGvwDfgO/AjR1QCUmotRm+ZqclXz3R98nqeB1L2hAfgYwSfErXZWpZ81mj31TNdn6H9Qgupv3ZP2APu179/kflj4xGlkX3WaA/tz1umnXrWAj22vz8mrp5/E3OGfEZIdRSzP+fkyQEdl9bz1ITPryY0oc85Z6HmvuEDra22QHO2dd6WRl/TiEvgiPGcxVDvx8JYtLaaQujbNZnzUBmX4rP1Fe/NrvvzmZn9BhNBl6aepbPYtQ5DPvKcWq9cOFHE2DrT+kxr0npHPfbtz9g+Iu8vWJzkCeaUzmKX7th65pq0GCv7lozS+qbtsfWcS74nNZ1nwgdmcO2TMeNwnb75aPLQvgvAVVPd4daAnfp9DzggMR3y3CP98b+rjWOX5Vr06Og6YnD80JmNdTTw5NOMU0TEcP92TOXVBosfAlfq9vX62eKIxdjnA/JsHHG8jcO2LZvqWyx52gZ1e8+h1SJ0B6XeuPLhHFLvsjyPnf+2mfWPekXRr9skj3BMH46V+vpEi2/8YR3XBHg+aQ454P5J82sDoW8ZG9fWODn4B1cKYMg=
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="90" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzt08sNACEIRVHasxB1r9N/tAM/k4HA3JOwMwYfKAJAW7JuAK/lWeWgqk2b7j0fn78V7Q83OdvnvrhvJx+rDKPNTpuX/Hb79PIexMPuAQCAPxl1sw3v
+  </data>
+ </layer>
+ <objectgroup id="3" name="Coins_Object">
+  <object id="67" x="832" y="320" width="64" height="64"/>
+  <object id="68" x="2688" y="128" width="64" height="64"/>
+  <object id="69" x="4224" y="448" width="64" height="64"/>
+  <object id="70" x="3520" y="576" width="64" height="64"/>
+  <object id="75" x="1536" y="448" width="64" height="64"/>
+  <object id="77" x="2176" y="384" width="64" height="64"/>
+  <object id="80" x="4864" y="448" width="64" height="64"/>
+  <object id="81" x="5440" y="320" width="64" height="64"/>
+  <object id="82" x="256" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="4" name="Enemy_Object"/>
+ <objectgroup id="5" name="Text_Object">
+  <properties>
+   <property name="text" value=""/>
+  </properties>
+  <object id="73" x="4232" y="204" width="692" height="64">
+   <properties>
+    <property name="text" value="Becareful, Holes are dangerous !"/>
+   </properties>
+   <text fontfamily="Roboto" pixelsize="48" wrap="1" color="#ffffff">Becareful, Holes are dangerous !</text>
+  </object>
+  <object id="74" x="2896" y="204" width="640" height="64">
+   <properties>
+    <property name="text" value="Use platforms to jump higher."/>
+   </properties>
+   <text fontfamily="Roboto" pixelsize="48" wrap="1" color="#ffffff">Use platforms to jump higher.</text>
+  </object>
+ </objectgroup>
+</map>
